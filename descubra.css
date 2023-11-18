@@ -1,0 +1,48 @@
+:root {
+    --cor1: #368fe9;
+    --cor2: #74b6f8;
+    --cor3: #eeeeee;
+}
+body{
+    all:unset;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(loading-40.gif) ;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 16px;
+    padding: 32px 64px;
+    color:var(--cor3)
+}
+
+.content input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--cor3);
+    font-size: 16px;
+    padding: 4px;
+    border-bottom: 1px solid var(--cor3);
+    width: 50%;
+}
+
+.content button{
+    padding:8px ;
+    width: 80%;
+    font-size: 16px;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    color: var(--cor3);
+}
